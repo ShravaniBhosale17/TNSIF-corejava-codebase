@@ -26,14 +26,14 @@ public class MyClass {
 
 	@Override
 	public String toString() {
-		return "MyClass [serial No "+SrNo+", section= + section + "];
-	}
+		return "MyClass serial No "+SrNo+", section= + section + ";
+	
 
 //STSTIC VOID
-	static void display()
+	 void display()
 		System.out.println("Serial No:"+SrNo);
 	
 	
-	
+}
 
 }
